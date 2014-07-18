@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "providers": [{
       "name": "virtualbox",
-      "url": "https://github.com/gsmiro/vagrant/master/ubuntu10_10.box",
+      "url": "https://github.com/gsmiro/vagrant/blob/master/ubuntu10_10.box",
       "checksum_type": "sha1",
       "checksum": "foo"
     }]
