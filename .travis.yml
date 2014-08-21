@@ -1,0 +1,4 @@
+language: go
+before_script:
+	- wget $(sed -n -e s/\"//g -e s/url\://p metadata.json )
+script: tar -czf  metadata.json boot2docker.iso boot2docker_virtualbox.box 
