@@ -2,7 +2,7 @@ language: go
 go:
   - 1.0
 install: 
-	- pwd
-	-ls
-	- wget $(sed -n -e s/\"//g -e s/url\://p metadata.json )
+  - pwd
+  - ls
+  - wget $(sed -n -e s/\"//g -e s/url\://p metadata.json )
 script: tar -czf  metadata.json boot2docker.iso boot2docker_virtualbox.box 
