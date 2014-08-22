@@ -3,8 +3,8 @@ VAGRANT_API_VERSION = "2"
 Vagrant.require_version ">= 1.6.3"
 
 Vagrant.configure(VAGRANT_API_VERSION) do |config|
-	config.vm.provider "docker" do |d|
-		d.vagrant_vagrantfile = "boot2docker/Vagrantfile" 
-		d.build_dir = "dockerenv"
+	config.vm.box = "gsmiro/boot2docker"
+	config.vm.provider "virtualbox" do |vbox|
+		vbox.name = "boot2docker-vm"
 	end
 end 

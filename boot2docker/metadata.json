@@ -8,8 +8,6 @@
 			"providers":[{
 				"name":"docker",
 				"url":"https://github.com/gsmiro/boot2docker/releases/download/v1.1.2/boot2docker_virtualbox.box"
-				"checksum_type":"sha1",
-				"checksum":"732934ebb81bd2cf69b73fa6b2f44d8fd4961655"	
 			}]
 		}
 	]
