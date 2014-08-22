@@ -3,5 +3,5 @@ go:
   - 1.0
 install: 
   - cd boot2docker
-  - wget https://github.com/boot2docker/boot2docker/releases/download/v.1.1.2/boot2docker.iso boot2docker_dwn.iso
-script: tar -czf  metadata.json boot2docker_dwn.iso boot2docker_virtualbox.box 
+  - wget https://github.com/boot2docker/boot2docker/releases/download/v.1.1.2/boot2docker.iso 
+script: tar -czf  metadata.json boot2docker.iso boot2docker_virtualbox.box 
