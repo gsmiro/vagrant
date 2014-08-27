@@ -4,6 +4,7 @@ Vagrant.require_version ">= 1.6.3"
 
 Vagrant.configure(VAGRANT_API_VERSION) do |config|
 	config.vm.box = "gsmiro/boot2docker"
+	config.ssh.username = "docker"
 	config.vm.provider "virtualbox" do |vbox|
 		vbox.name = "boot2docker-vm"
 	end
