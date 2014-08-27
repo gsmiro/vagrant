@@ -6,7 +6,7 @@
 		{
 			"version":"1.1.2",
 			"providers":[{
-				"name":"docker",
+				"name":"virtualbox",
 				"url":"https://github.com/gsmiro/boot2docker/releases/download/v1.1.2/boot2docker_virtualbox.box"
 			}]
 		}
