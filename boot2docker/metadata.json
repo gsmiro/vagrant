@@ -1,6 +1,6 @@
 {
 	"name":"gsmiro/boot2docker",
-	"provider":"docker",
+	"provider":"virtualbox",
 	"description":"base boot2docker v1.1.2 VirtualBox image",
 	"versions":[
 		{
