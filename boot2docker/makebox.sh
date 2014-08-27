@@ -8,7 +8,8 @@ VBoxManage unregistervm $VM --delete
 boot2docker init
 VBoxManage modifyvm $VM --name $NVM
 
-vagrant package --base $NVM --output "$NVM.box"  
+vagrant package --base $NVM --output "$NVM.box" 
 vagrant box add -cf --provider virtualbox --name gsmiro/boot2docker "$NVM.box"
 
 VBoxManage unregistervm $NVM --delete
+#rm "$NVM.box"
